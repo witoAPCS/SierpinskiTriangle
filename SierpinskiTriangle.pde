@@ -4,11 +4,11 @@
 }
 public void draw()
 {
-  for(int i = 0; i < 100; i++){
+  for(int balls = 0; balls < 100; balls++){
     for(int j = 0; j < 100; j++){
     noStroke();
-    fill(i,j,10);
-    ellipse(i * 10,j * 10,20,20);
+    fill(balls+20,j+20,130);
+    ellipse(balls * 10,j * 10,20,20);
     }
   }
   fill(255);
